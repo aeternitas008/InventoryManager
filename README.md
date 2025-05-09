@@ -22,7 +22,7 @@
 
 1. Клонируй репозиторий:
    ```bash
-   git clone https://github.com/your-username/inventory-manager-app.git
+   git clone https://github.com/aeternitas008/my_accounting.git
 
 ## 📸 Скриншоты
 
