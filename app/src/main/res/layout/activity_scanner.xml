@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/template_header"/>
+
+    <LinearLayout
+        android:id="@+id/tiles_block"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="40dp"
+        android:paddingTop="10dp">
+
+        <!-- SurfaceView для камеры -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp"> <!-- Закругленные углы -->
+
+            <!-- SurfaceView для камеры -->
+            <SurfaceView
+                android:id="@+id/camera_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_background_scanner_view"/>
+            <View
+                android:id="@+id/scan_area"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/rectangle"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/barcode_result"
+            style="@style/SimpleTextViewStyle"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_input_field"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/title_good"
+            style="@style/SimpleTextViewStyle"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape_input_field"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/button_more_info"
+            android:layout_marginTop="30dp"
+            style="@style/CustomButtonStyle.ButtonSimple"
+            android:text="@string/more_information"/>
+
+        <Button
+            android:layout_marginTop="92dp"
+            style="@style/CustomButtonStyle.ButtonSimple"
+            android:text="@string/save"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.My_accounting" parent="Theme.AppCompat.DayNight.NoActionBar">
+<!--        <item name="android:windowBackground">@color/light_blue</item>-->
+        <item name="android:textColor">@color/textColor</item>
+        <!-- Base application theme. -->
+    </style>
+
+    <style name="Theme.My_accounting" parent="Base.Theme.My_accounting" >
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/textColor</item>
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:textViewStyle">@style/CustomTextViewStyle</item>
+        <item name="android:editTextStyle">@style/CustomEditTextStyle</item>
+        <item name="android:spinnerStyle">@style/CustomSpinnerStyle</item>
+
+
+        <item name="android:editTextBackground">@drawable/shape_input_field</item>
+    </style>
+</resources>

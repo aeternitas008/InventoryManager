@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/shape_item_good"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="7">
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="100"/>
+
+    <ImageButton
+        android:id="@+id/ib_delete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:src="@drawable/trash"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et_barcode"
+            style="@style/CustomEditTextStyle"
+            android:textAlignment="viewStart"
+            android:layout_weight="5"
+            android:hint="@string/barcode"
+            android:inputType="number"
+            android:drawableEnd="@drawable/barcode_scan_small"
+            android:drawablePadding="0dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="10dp"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/et_count"
+            style="@style/CustomEditTextStyle"
+            android:layout_weight="2"
+            android:hint="@string/count"
+            android:inputType="number"
+            android:visibility="visible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"/>
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:padding="5dp"
+            style="@style/CustomTextViewStyle"
+            android:gravity="start"
+            android:hint="@string/title"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+

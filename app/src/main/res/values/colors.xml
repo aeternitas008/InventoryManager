@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey">#FF959494</color>
+    <color name="light_blue">#FF4A6572</color>
+    <color name="gray_blue">#FF344955</color>
+    <color name="dark_blue">#FF232F34</color>
+    <color name="orange">#FFF9AA33</color>
+    <color name="light_yellow">#FFF0FFC4</color>
+    <color name="light">#FF96BDCE</color>
+    <color name="no_white">#FFDDDBD5</color>
+    <color name="green">#FF0F5716</color>
+    <color name="red">#F44336</color>
+
+
+    <color name="backgroundColor">#669999</color> <!-- Темно-серый фон -->
+
+    <color name="primaryColor">#FFCC66</color>
+    <color name="primaryDarkColor">#0056b3</color>
+    <color name="accentColor">#FF9933</color>
+<!--    <color name="backgroundColor">#FFFFFF</color>-->
+
+</resources>

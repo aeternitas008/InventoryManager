@@ -1,0 +1,102 @@
+<resources>
+    <style name="Base.Theme.My_accounting" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Base application theme. -->
+    </style>
+
+    <style name="Theme.My_accounting" parent="Base.Theme.My_accounting" >
+
+        <item name="android:orientation">vertical</item>
+        <item name="android:textColor">@color/textColor</item>
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+        <!-- Customize your theme here -->
+        <item name="android:windowBackground">@color/backgroundColor</item>
+
+        <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+        <item name="android:textViewStyle">@style/CustomTextViewStyle</item>
+        <item name="android:editTextStyle">@style/CustomEditTextStyle</item>
+        <item name="android:spinnerStyle">@style/CustomSpinnerStyle</item>
+
+        <item name="android:editTextBackground">@drawable/shape_input_field</item>
+    </style>
+
+    <style name="TVLevel1" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@color/accentColor</item>
+        <item name="android:textColorHint">@color/accentColor</item>
+
+    </style>
+
+    <style name="TVLevel2" parent="TVLevel1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="colorButtonNormal">@color/accentColor</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="ButtonGrid" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:background">@drawable/shape_of_tile</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="CustomButtonStyle.ButtonSimple">
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="CustomTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="SimpleTextViewStyle" parent="CustomTextViewStyle">
+        <item name="android:background">@drawable/shape_input_field</item>
+    </style>
+
+    <style name="CustomEditTextStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/shape_input_field</item>
+        <item name="android:popupBackground">@color/white</item> <!-- Установите цвет фона выпадающего списка -->
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MainLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingHorizontal">40dp</item>
+    </style>
+
+</resources>
