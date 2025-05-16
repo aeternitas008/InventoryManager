@@ -30,11 +30,6 @@
 ![Презентация](https://github.com/user-attachments/assets/d8630e51-3998-4339-a9cd-05b668837290)
 
 ### На видео представлена работа в реальном времени а именно регистрация, авторизация, сканирование и добавление товара
-<div style="text-align: center;">
-  <video width="640" height="360" controls>
-    <source src="https://github.com/user-attachments/assets/bdb6a18d-93ea-43d7-9008-bce70f1f6749" type="video/mp4">
-    Your browser does not support the video tag.
-  
-</video>
-</div>
+<div>
 https://github.com/user-attachments/assets/bdb6a18d-93ea-43d7-9008-bce70f1f6749
+</div>
