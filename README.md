@@ -29,7 +29,8 @@
 ### Скриншоты
 ![Презентация](https://github.com/user-attachments/assets/d8630e51-3998-4339-a9cd-05b668837290)
 
-### На видео представлена работа в реальном времени а именно регистрация, авторизация, сканирование и добавление товара
-<div>
-https://github.com/user-attachments/assets/bdb6a18d-93ea-43d7-9008-bce70f1f6749
+### На видео представлена работа в реальном времени: регистрация, авторизация, сканирование и добавление товара
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/bdb6a18d-93ea-43d7-9008-bce70f1f6749" controls width="640"></video>
 </div>
