@@ -32,5 +32,10 @@
 ### На видео представлена работа в реальном времени: регистрация, авторизация, сканирование и добавление товара
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/bdb6a18d-93ea-43d7-9008-bce70f1f6749" controls width="640"></video>
+  <video src="https://github.com/user-attachments/assets/0ab62568-ad61-4183-92da-1e712ac62780" controls width="640"></video>
 </div>
+
+
+
+
+
